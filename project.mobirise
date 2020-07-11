@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-07-11_0157",
+    "name": "Jerry Carroll for Uinta County Commissioner",
     "currentPage": "index.html",
     "theme": {
       "name": "politicsm4",
@@ -28,12 +28,26 @@
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.4",
     "siteFonts": [],
     "imageResize": true,
+    "favicon": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false,
+    "witsec-white-label": false,
+    "witsec-mailform": false,
     "uniqCompNum": 16,
     "versionPublish": "4.12.4"
   },
@@ -879,7 +893,7 @@
             }
           },
           "_name": "content02",
-          "_customHTML": "<section class=\"content02\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ed4266\" selected=\"\" condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Signature\" name=\"showSign\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-left\">\n            <div class=\"col-lg-12 md-pb\">\n                <h3 class=\"mbr-section-subtitle pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">\n                    Establishing The Right Connections</h3>\n                <h2 class=\"mbr-section-title mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Social Equality And Rights</h2>\n\n                <div class=\"line-wrap\" mbr-if=\"showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <p class=\"mbr-text py-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin felis. Vestibulum\n                    vestibulum leo sed elit inter dum malesuada. Sed sed scelerisque diam, quis finibus felis. Morbi in\n                    ante neque. Proin nec dui orci. In id risus a elit pretium commodo. In sollicitudin purus id orci\n                    lacinia rutrum. Vestibulum faucibus viverra nulla, et placerat ipsum fermentum non. Suspendisse\n                    laoreet venenatis ex nec iaculis. Cras in molestie turpis. Etiam nisi nunc, viverra vitae euismod\n                    nec, convallis et arcu. Lorem ipsum dolor sit amet.<br><br>Nullam mattis cursus nisl, ut euismod\n                    elit ornare quis. Pellentesque in eros sagittis, ultrices libero et, auctor diam. Vivamus at felis a\n                    eros rhoncus luctus id quis leo. Curabitur cursus ex at magna ultricies luctus. Nulla in est non\n                    felis ultrices malesuada vitae sit amet leo. Mauris faucibus ultricies velit laoreet pharetra. Fusce\n                    sit amet consequat mauris, quis imperdiet urna. Cur abitur tellus lectus, posuere ac placerat eu,\n                    vehicula ut massa. Praesent est elit, lobortis nec efficitur quis, ultricies placerat odio. In ac\n                    facilisis purus, venenatis consectetur ligula. Praesent felis libero, iaculis eget<br></p>\n\n                <img src=\"../_images/signature.png\" alt=\"Mobirise\" mbr-if=\"showSign\">\n\n            </div>\n\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content02\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ed4266\" selected condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Signature\" name=\"showSign\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jerry-and-some-family-960x720.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ebeced\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-left\">\n            <div class=\"col-lg-12 md-pb\">\n                <h3 class=\"mbr-section-subtitle pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">\n                    Establishing The Right Connections</h3>\n                <h2 class=\"mbr-section-title mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Social Equality And Rights</h2>\n\n                <div class=\"line-wrap\" mbr-if=\"showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <p class=\"mbr-text py-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin felis. Vestibulum\n                    vestibulum leo sed elit inter dum malesuada. Sed sed scelerisque diam, quis finibus felis. Morbi in\n                    ante neque. Proin nec dui orci. In id risus a elit pretium commodo. In sollicitudin purus id orci\n                    lacinia rutrum. Vestibulum faucibus viverra nulla, et placerat ipsum fermentum non. Suspendisse\n                    laoreet venenatis ex nec iaculis. Cras in molestie turpis. Etiam nisi nunc, viverra vitae euismod\n                    nec, convallis et arcu. Lorem ipsum dolor sit amet.<br><br>Nullam mattis cursus nisl, ut euismod\n                    elit ornare quis. Pellentesque in eros sagittis, ultrices libero et, auctor diam. Vivamus at felis a\n                    eros rhoncus luctus id quis leo. Curabitur cursus ex at magna ultricies luctus. Nulla in est non\n                    felis ultrices malesuada vitae sit amet leo. Mauris faucibus ultricies velit laoreet pharetra. Fusce\n                    sit amet consequat mauris, quis imperdiet urna. Cur abitur tellus lectus, posuere ac placerat eu,\n                    vehicula ut massa. Praesent est elit, lobortis nec efficitur quis, ultricies placerat odio. In ac\n                    facilisis purus, venenatis consectetur ligula. Praesent felis libero, iaculis eget<br></p>\n\n                <img src=\"../_images/signature.png\" alt=\"Mobirise\" mbr-if=\"showSign\">\n\n            </div>\n\n\n        </div>\n    </div>\n</section>",
           "_cid": "s4pWEjM1RU",
           "_protectedParams": [],
           "_global": false,
@@ -1441,7 +1455,7 @@
         },
         {
           "_params": {
-            "paddingTop": 0,
+            "paddingTop": "2",
             "paddingBottom": 0,
             "socialFacebook": true,
             "postsNumber": "9",
